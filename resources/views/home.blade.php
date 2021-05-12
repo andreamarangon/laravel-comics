@@ -2,7 +2,14 @@
 
 @section('main')
 <p>home</p>
-@foreach ($comics as $comic)
-  <p>{{ $comic['title'] }}</p>
-@endforeach
+<div class="container-card">
+  @foreach ($comics as $comic)
+    <div class="card">
+      <div class="container-img" style="background-image: url('{{ $comic['thumb'] }}')" >
+      </div>
+      <p>{{ $comic['series'] }}</p>
+    </div>
+  @endforeach
+</div>
+
 @endsection
