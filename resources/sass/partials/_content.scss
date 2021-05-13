@@ -1,24 +1,46 @@
 main {
-  background-color: #1C1C1C;
-  .container-card {
-    @include container-center(65%);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    .card {
-      width: calc(100% / 6 - 20px);
-      margin: 0 10px;
-      .container-img {
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-        height: 160px;
-        // height: 50%;
-        // overflow: hidden;
-        // img {
-        //   width: 100%;
-        // }
+  .comics-section {
+    background-color: #1C1C1C;
+    .container-card {
+      @include container-center(65%);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .card {
+        width: calc(100% / 6 - 20px);
+        margin: 0 10px;
+        padding-bottom: 40px;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .container-img {
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          height: 160px;
+          // height: 50%;
+          // overflow: hidden;
+          // img {
+          //   width: 100%;
+          // }
+        }
       }
     }
+    .my-btn-main {
+      cursor: pointer;
+      background-color: #0282F9;
+      padding: 6px 50px;
+      text-transform: uppercase;
+      width: fit-content;
+      margin: 0 auto;
+      color: #fff;
+      font-size: 14px;
+    }
+
+  }
+  .shop {
+    height: 120px;
+    background-color: #0282F9;
   }
 }

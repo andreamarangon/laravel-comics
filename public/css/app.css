@@ -383,10 +383,30 @@ body {
 }
 
 header nav .nav-up {
+  color: #fff;
   background-color: #0282F9;
   height: 23px;
 }
+header nav .nav-up .container-nav-up {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav .nav-up .container-nav-up ul {
+  list-style: none;
+}
+header nav .nav-up .container-nav-up ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 12px;
+}
+header nav .nav-up .container-nav-up ul li i {
+  margin-left: 5px;
+}
 header nav .nav-down {
+  color: #464646;
   padding: 15px 0;
   width: 65%;
   margin: 0 auto;
@@ -406,28 +426,66 @@ header nav .nav-down ul li {
 }
 header nav .nav-down ul li a {
   text-decoration: none;
-  color: #000;
+  color: #464646;
+}
+header nav .nav-down ul li a.active {
+  color: #0282F9;
+  border-bottom: 6px solid #0282F9;
+  padding-bottom: 36px;
+}
+header nav .nav-down ul li i {
+  color: #0282F9;
+  margin-left: 5px;
+}
+header nav .nav-down .search {
+  border-bottom: 2px solid #0282F9;
+  padding-left: 60px;
+}
+header .jumbo {
+  height: 380px;
+  background-image: url("../img/jumbotron.jpg");
 }
 
-main {
+main .comics-section {
   background-color: #1C1C1C;
 }
-main .container-card {
+main .comics-section .container-card {
   width: 65%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-main .container-card .card {
+main .comics-section .container-card .card {
   width: calc(100% / 6 - 20px);
   margin: 0 10px;
+  padding-bottom: 40px;
 }
-main .container-card .card .container-img {
+main .comics-section .container-card .card a {
+  text-decoration: none;
+  color: #fff;
+}
+main .comics-section .container-card .card .container-img {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   height: 160px;
+}
+main .comics-section .my-btn-main {
+  cursor: pointer;
+  background-color: #0282F9;
+  padding: 6px 50px;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
+}
+main .shop {
+  height: 120px;
+  background-color: #0282F9;
 }
 
 footer ul {
