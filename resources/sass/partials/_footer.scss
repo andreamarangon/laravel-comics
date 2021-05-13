@@ -1,0 +1,35 @@
+footer {
+  ul {
+    list-style: none;
+    li{
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .footer-up {
+    background-image: url('../img/footer-bg.jpg');
+    height: 370px;
+    overflow: hidden;
+    .container-footer-up {
+      @include container-center(65%);
+      display: flex;
+      .container-footer-up-left {
+        @include container-center(50%);
+        .ul-section {
+          display: flex;
+        }
+      }
+      .container-footer-up-right {
+        @include container-center(50%);
+        img {
+          margin-top: -70px;
+          width: 520px;
+          float: right;
+        }
+      }
+    }
+  }
+}

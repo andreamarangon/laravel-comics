@@ -1,15 +1,16 @@
 @extends('layouts.app')
 
 @section('main')
-<p>home</p>
 <div class="container-card">
-  @foreach ($comics as $comic)
+  <!-- ciclo la card con un foreach-->
+  @foreach ($comics as $index => $comic)
     <div class="card">
-      <div class="container-img" style="background-image: url('{{ $comic['thumb'] }}')" >
-      </div>
-      <p>{{ $comic['series'] }}</p>
+      <a href="{{route('detail', ['id' => $index])}}">
+        <div class="container-img" style="background-image: url('{{ $comic['thumb'] }}')" >
+        </div>
+        <h5 class="text-uppercase">{{ $comic['series'] }}</h5>
+      </a>
     </div>
   @endforeach
 </div>
-
 @endsection

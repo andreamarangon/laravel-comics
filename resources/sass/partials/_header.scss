@@ -1,8 +1,32 @@
-@import '_navbar.scss';
-
 header {
-  h1 {
-    color: pink;
+  nav {
+    .nav-up {
+      background-color: #0282F9;
+      height: 23px;
+    }
+    .nav-down {
+      padding: 15px 0;
+      @include container-center(65%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .img-logo-dc {
+        img {
+          width: 72px;
+        }
+      }
+      ul {
+        list-style: none;
+        li{
+          display: inline-block;
+          margin-left: 30px;
+          a {
+            text-decoration: none;
+            color: #000;
+          }
+        }
+      }
+    }
   }
 
 }
