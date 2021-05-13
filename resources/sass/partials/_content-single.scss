@@ -4,9 +4,35 @@ main {
     background-color: #0282F9;
   }
   .detail-center {
+    display: flex;
     @include container-center(55%);
     .detail-center-left {
       @include container-center(70%);
+      .container-green {
+        color: #fff;
+        display: flex;
+        width: 100%;
+        height: 40px;
+        .container-green-left {
+          width: 70%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #55BA59;
+          &>*{
+            margin: 0 20px;
+          }
+        }
+        .container-green-right {
+          width: 30%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #55BA59;
+          border-left: 1px solid #000;
+        }
+
+      }
     }
     .detail-center-right {
       @include container-center(30%);

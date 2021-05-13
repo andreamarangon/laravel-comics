@@ -49,5 +49,21 @@ main {
   .shop {
     height: 120px;
     background-color: #0282F9;
+    color: #fff;
+    .container-shop {
+      @include container-center(65%);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      .card-shop {
+        display: flex;
+        align-items: center;
+        img {
+          height: 55px;
+          margin-right: 15px;
+        }
+      }
+    }
   }
 }

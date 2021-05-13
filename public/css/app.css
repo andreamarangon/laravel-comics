@@ -500,6 +500,23 @@ main .comics-section .my-btn-main {
 main .shop {
   height: 120px;
   background-color: #0282F9;
+  color: #fff;
+}
+main .shop .container-shop {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+main .shop .container-shop .card-shop {
+  display: flex;
+  align-items: center;
+}
+main .shop .container-shop .card-shop img {
+  height: 55px;
+  margin-right: 15px;
 }
 
 main .detail-up {
@@ -507,12 +524,37 @@ main .detail-up {
   background-color: #0282F9;
 }
 main .detail-center {
+  display: flex;
   width: 55%;
   margin: 0 auto;
 }
 main .detail-center .detail-center-left {
   width: 70%;
   margin: 0 auto;
+}
+main .detail-center .detail-center-left .container-green {
+  color: #fff;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+main .detail-center .detail-center-left .container-green .container-green-left {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55BA59;
+}
+main .detail-center .detail-center-left .container-green .container-green-left > * {
+  margin: 0 20px;
+}
+main .detail-center .detail-center-left .container-green .container-green-right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #55BA59;
+  border-left: 1px solid #000;
 }
 main .detail-center .detail-center-right {
   width: 30%;
