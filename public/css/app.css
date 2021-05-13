@@ -529,8 +529,7 @@ main .detail-center {
   margin: 0 auto;
 }
 main .detail-center .detail-center-left {
-  width: 70%;
-  margin: 0 auto;
+  width: 65%;
 }
 main .detail-center .detail-center-left .container-green {
   color: #fff;
@@ -557,8 +556,10 @@ main .detail-center .detail-center-left .container-green .container-green-right 
   border-left: 1px solid #000;
 }
 main .detail-center .detail-center-right {
-  width: 30%;
-  margin: 0 auto;
+  width: 35%;
+}
+main .detail-center .detail-center-right span, main .detail-center .detail-center-right img {
+  float: right;
 }
 footer {
   color: #fff;

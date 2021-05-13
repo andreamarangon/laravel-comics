@@ -7,7 +7,7 @@ main {
     display: flex;
     @include container-center(55%);
     .detail-center-left {
-      @include container-center(70%);
+      width: 65%;
       .container-green {
         color: #fff;
         display: flex;
@@ -31,11 +31,13 @@ main {
           background-color: #55BA59;
           border-left: 1px solid #000;
         }
-
       }
     }
     .detail-center-right {
-      @include container-center(30%);
+      width: 35%;
+      span,img {
+        float: right;
+      }
     }
 
   }

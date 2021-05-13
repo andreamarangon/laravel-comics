@@ -6,7 +6,7 @@
   </div>
  </section>
  <section class="detail-center">
-   <div class="detail-center-left">
+   <div class="detail-center-left pt-10">
      <h1>{{ $comic['title'] }}</h1>
      <div class="container-green">
       <div class="container-green-left">
@@ -17,8 +17,9 @@
     </div>
     <p>{{ $comic['description'] }}</p>
    </div>
-   <div class="detail-center-right">
-
+   <div class="detail-center-right pt-8">
+    <span class="text-uppercase">advertisement</span>
+    <img src="/img/adv.jpg" alt="">
    </div>
  </section>
  <section class="detail-down">
