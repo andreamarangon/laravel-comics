@@ -2,19 +2,21 @@ footer {
   color: #fff;
   ul {
     list-style: none;
+    margin-right: 20px;
     li{
       a {
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         color: #fff;
+        font-weight: lighter;
       }
     }
   }
 
   .footer-up {
     background-image: url('../img/footer-bg.jpg');
-    height: 370px;
+    height: 390px;
     overflow: hidden;
     .container-footer-up {
       @include container-center(65%);
@@ -23,6 +25,15 @@ footer {
         @include container-center(50%);
         .ul-section {
           display: flex;
+        }
+        p {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 11px;
+          font-weight: lighter;
+          span {
+            cursor: pointer;
+            color: $secondary;
+          }
         }
       }
       .container-footer-up-right {

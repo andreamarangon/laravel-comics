@@ -523,16 +523,18 @@ footer {
 }
 footer ul {
   list-style: none;
+  margin-right: 20px;
 }
 footer ul li a {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   color: #fff;
+  font-weight: lighter;
 }
 footer .footer-up {
   background-image: url("../img/footer-bg.jpg");
-  height: 370px;
+  height: 390px;
   overflow: hidden;
 }
 footer .footer-up .container-footer-up {
@@ -546,6 +548,15 @@ footer .footer-up .container-footer-up .container-footer-up-left {
 }
 footer .footer-up .container-footer-up .container-footer-up-left .ul-section {
   display: flex;
+}
+footer .footer-up .container-footer-up .container-footer-up-left p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: lighter;
+}
+footer .footer-up .container-footer-up .container-footer-up-left p span {
+  cursor: pointer;
+  color: #0282F9;
 }
 footer .footer-up .container-footer-up .container-footer-up-right {
   width: 50%;

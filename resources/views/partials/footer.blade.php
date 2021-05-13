@@ -1,11 +1,11 @@
 <footer>
   <div class="footer-up">
     <div class="container-footer-up">
-      <div class="container-footer-up-left">
-        <div class="ul-section">
+      <div class="container-footer-up-left mb-5">
+        <div class="ul-section mt-3">
           <div class="ul-column">
             <ul>
-              <li><h3 class="text-uppercase mb-1">dc comics</h3></li>
+              <li><h3 class="text-uppercase mt-2 mb-1">dc comics</h3></li>
               <li><a href="">Characters</a></li>
               <li><a href="">Comics</a></li>
               <li><a href="">Movies</a></li>
@@ -15,13 +15,13 @@
               <li><a href="">News</a></li>
             </ul>
             <ul>
-              <li><h3 class="text-uppercase mb-1">shop</h3></li>
+              <li><h3 class="text-uppercase mb-1 mt-2">shop</h3></li>
               <li><a href="">Shop DC</a></li>
               <li><a href="">Shop DC Collectibles</a></li>
             </ul>
           </div>
           <ul>
-            <li><h3 class="text-uppercase mb-1">dc</h3></li>
+            <li><h3 class="text-uppercase mb-1 mt-2">dc</h3></li>
             <li><a href="">Terms Of Use</a></li>
             <li><a href="">Privacy policy(New)</a></li>
             <li><a href="">Ad Choices</a></li>
@@ -35,7 +35,7 @@
             <li><a href="">Contact Us</a></li>
           </ul>
           <ul>
-            <li><h3 class="text-uppercase mb-1">sites</h3></li>
+            <li><h3 class="text-uppercase mb-1 mt-2">sites</h3></li>
             <li><a href="">DC</a></li>
             <li><a href="">MAD Magazine</a></li>
             <li><a href="">DC Kids</a></li>
@@ -43,7 +43,7 @@
             <li><a href="">DC Power Visa</a></li>
           </ul>
         </div>
-        <p>All site Content TM 2020 DC Entertainment, unless otherwise <span>noted here</span>. All rights reserved. <span>Cookies Settings</span> </p>
+        <p class="mt-2">All site Content TM and &copy; 2020 DC Entertainment, unless otherwise <span>noted here</span>. All rights reserved.<br> <span>Cookies Settings</span> </p>
       </div>
       <div class="container-footer-up-right">
         <img src="/img/dc-logo-bg.png" alt="">
