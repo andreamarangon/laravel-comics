@@ -2,7 +2,7 @@ header {
   nav {
     .nav-up {
       color: #fff;
-      background-color: #0282F9;
+      background-color: $secondary;
       height: 23px;
       .container-nav-up {
         @include container-center(65%);
@@ -44,7 +44,7 @@ header {
             color: #464646;
             &.active {
               color: #0282F9;
-              border-bottom: 6px solid #0282F9;
+              border-bottom: 6px solid $secondary;
               padding-bottom: 36px;
             }
           }

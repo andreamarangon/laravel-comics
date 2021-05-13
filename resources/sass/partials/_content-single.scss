@@ -1,0 +1,19 @@
+main {
+  .detail-up {
+    height: 70px;
+    background-color: #0282F9;
+  }
+  .detail-center {
+    @include container-center(55%);
+    .detail-center-left {
+      @include container-center(70%);
+    }
+    .detail-center-right {
+      @include container-center(30%);
+    }
+
+  }
+  .detail-down {
+
+  }
+}

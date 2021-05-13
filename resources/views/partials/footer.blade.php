@@ -5,7 +5,7 @@
         <div class="ul-section">
           <div class="ul-column">
             <ul>
-              <li>dc comics</li>
+              <li><h3 class="text-uppercase mb-1">dc comics</h3></li>
               <li><a href="">Characters</a></li>
               <li><a href="">Comics</a></li>
               <li><a href="">Movies</a></li>
@@ -15,13 +15,13 @@
               <li><a href="">News</a></li>
             </ul>
             <ul>
-              <li>shop</li>
+              <li><h3 class="text-uppercase mb-1">shop</h3></li>
               <li><a href="">Shop DC</a></li>
               <li><a href="">Shop DC Collectibles</a></li>
             </ul>
           </div>
           <ul>
-            <li>dc </li>
+            <li><h3 class="text-uppercase mb-1">dc</h3></li>
             <li><a href="">Terms Of Use</a></li>
             <li><a href="">Privacy policy(New)</a></li>
             <li><a href="">Ad Choices</a></li>
@@ -35,7 +35,7 @@
             <li><a href="">Contact Us</a></li>
           </ul>
           <ul>
-            <li>sites </li>
+            <li><h3 class="text-uppercase mb-1">sites</h3></li>
             <li><a href="">DC</a></li>
             <li><a href="">MAD Magazine</a></li>
             <li><a href="">DC Kids</a></li>
@@ -51,10 +51,10 @@
     </div>
   </div>
   <div class="footer-down">
-    <div class="container">
-      <a href="">Sign-up now!</a>
-      <div class="right-footer">
-        <span>follow us</span>
+    <div class="container-footer-down">
+      <div class="btn-sign-up">Sign-up now!</div>
+      <div class="right-footer-down">
+        <span class="text-uppercase">follow us</span>
         <div class="social-icons">
           <img src="/img/footer-facebook.png" alt="">
           <img src="/img/footer-twitter.png" alt="">

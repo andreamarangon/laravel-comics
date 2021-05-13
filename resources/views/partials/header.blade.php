@@ -10,7 +10,7 @@
     </div>
     <div class="nav-down">
       <div class="img-logo-dc">
-        <img src="./img/dc-logo.png" alt="">
+        <img src="/img/dc-logo.png" alt="">
       </div>
       <ul>
         <li class="text-uppercase"><a href="">characters</a></li>

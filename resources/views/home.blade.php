@@ -2,6 +2,7 @@
 
 @section('main')
 <section class="comics-section pb-2">
+  <div class="current-series">current series</div>
   <div class="container-card pt-6">
     <!-- ciclo la card con un foreach-->
     @foreach ($comics as $index => $comic)

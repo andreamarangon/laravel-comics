@@ -448,6 +448,20 @@ header .jumbo {
 
 main .comics-section {
   background-color: #1C1C1C;
+  position: relative;
+}
+main .comics-section .current-series {
+  position: absolute;
+  top: -28px;
+  left: 17%;
+  background-color: #0282F9;
+  padding: 6px 28px;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-size: 30px;
 }
 main .comics-section .container-card {
   width: 65%;
@@ -488,11 +502,32 @@ main .shop {
   background-color: #0282F9;
 }
 
+main .detail-up {
+  height: 70px;
+  background-color: #0282F9;
+}
+main .detail-center {
+  width: 55%;
+  margin: 0 auto;
+}
+main .detail-center .detail-center-left {
+  width: 70%;
+  margin: 0 auto;
+}
+main .detail-center .detail-center-right {
+  width: 30%;
+  margin: 0 auto;
+}
+footer {
+  color: #fff;
+}
 footer ul {
   list-style: none;
 }
 footer ul li a {
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
   color: #fff;
 }
 footer .footer-up {
@@ -520,4 +555,36 @@ footer .footer-up .container-footer-up .container-footer-up-right img {
   margin-top: -70px;
   width: 520px;
   float: right;
+}
+footer .footer-down {
+  background-color: #303030;
+}
+footer .footer-down .container-footer-down {
+  height: 100px;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-down .container-footer-down .btn-sign-up {
+  text-transform: uppercase;
+  padding: 10px 16px;
+  border: 3px solid #0282F9;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+}
+footer .footer-down .container-footer-down .right-footer-down {
+  display: flex;
+  align-items: center;
+}
+footer .footer-down .container-footer-down .right-footer-down span {
+  color: #0282F9;
+  font-size: 21px;
+}
+footer .footer-down .container-footer-down .right-footer-down .social-icons img {
+  margin-left: 13px;
+  width: 32px;
 }
