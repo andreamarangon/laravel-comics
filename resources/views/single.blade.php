@@ -2,10 +2,11 @@
 
 @section('main')
  <section class="detail-up">
-  <div class="">
-  </div>
+   <div class="container-detail-up">
+     <img src="{{ $comic['thumb'] }}" alt="">
+   </div>
  </section>
- <section class="detail-center">
+ <section class="detail-center pb-10">
    <div class="detail-center-left pt-10">
      <h1>{{ $comic['title'] }}</h1>
      <div class="container-green">
@@ -23,6 +24,9 @@
    </div>
  </section>
  <section class="detail-down">
+   <div class="container-detail-down">
+
+   </div>
 
  </section>
 @endsection
