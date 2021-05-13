@@ -14,11 +14,14 @@ main {
     @include container-center(55%);
     .detail-center-left {
       width: 65%;
+      h1 {
+        font-size: 32px;
+      }
       .container-green {
         color: #fff;
         display: flex;
         width: 100%;
-        height: 40px;
+        height: 45px;
         .container-green-left {
           width: 70%;
           display: flex;
@@ -36,8 +39,15 @@ main {
           align-items: center;
           background-color: #55BA59;
           border-left: 1px solid #000;
+          i {
+            margin-left: 5px;
+          }
         }
       }
+      p {
+        color: gray;
+      }
+
     }
     .detail-center-right {
       width: 35%;

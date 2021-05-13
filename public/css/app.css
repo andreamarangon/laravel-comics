@@ -538,11 +538,14 @@ main .detail-center {
 main .detail-center .detail-center-left {
   width: 65%;
 }
+main .detail-center .detail-center-left h1 {
+  font-size: 32px;
+}
 main .detail-center .detail-center-left .container-green {
   color: #fff;
   display: flex;
   width: 100%;
-  height: 40px;
+  height: 45px;
 }
 main .detail-center .detail-center-left .container-green .container-green-left {
   width: 70%;
@@ -561,6 +564,12 @@ main .detail-center .detail-center-left .container-green .container-green-right 
   align-items: center;
   background-color: #55BA59;
   border-left: 1px solid #000;
+}
+main .detail-center .detail-center-left .container-green .container-green-right i {
+  margin-left: 5px;
+}
+main .detail-center .detail-center-left p {
+  color: gray;
 }
 main .detail-center .detail-center-right {
   width: 35%;
