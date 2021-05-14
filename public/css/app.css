@@ -471,8 +471,8 @@ main .comics-section .container-card {
   justify-content: center;
 }
 main .comics-section .container-card .card {
-  width: calc(100% / 6 - 20px);
-  margin: 0 10px;
+  width: calc(100% / 6 - 28px);
+  margin: 0 14px;
   padding-bottom: 40px;
 }
 main .comics-section .container-card .card a {
@@ -590,7 +590,6 @@ main .detail-down .container-detail-down {
   width: 55%;
   margin: 0 auto;
 }
-
 footer {
   color: #fff;
 }

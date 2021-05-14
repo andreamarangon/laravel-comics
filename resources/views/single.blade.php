@@ -25,11 +25,35 @@
  </section>
  <section class="detail-down">
    <div class="container-detail-down">
-    <div class="container-detail-down-left">
-
+    <div class="container-detail-talent">
+      <h2>Talent</h2>
+      <div class="art-by">
+        <span>Art by:</span>
+        @foreach ($comic['artists'] as $artist)
+        <p>{{ $artist}}</p>
+        @endforeach
+      </div>
+      <div class="written-by">
+        <span>Written by:</span>
+        @foreach ($comic['writers'] as $writer)
+        <p>{{ $writer}}</p>
+        @endforeach
+      </div>
     </div>
-    <div class="container-detail-down-right">
-
+    <div class="container-detail-specs">
+      <h2>Specs</h2>
+      <div class="series">
+        <span>Series:</span>
+        <p>{{ $comic['series'] }}</p>
+      </div>
+      <div class="us-price:">
+        <span>U.S. Price:</span>
+        <p>{{ $comic['price'] }}</p>
+      </div>
+      <div class="on-sale-date">
+        <span>On Sale Date</span>
+        <p>{{ $comic['sale_date'] }}</p>
+      </div>
     </div>
    </div>
 
