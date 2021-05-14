@@ -1,7 +1,7 @@
 main {
   .detail-up {
     height: 70px;
-    background-color: #0282F9;
+    background-color: #0282f9;
     .container-detail-up {
       @include container-center(55%);
       img {
@@ -27,8 +27,8 @@ main {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          background-color: #55BA59;
-          &>*{
+          background-color: #55ba59;
+          & > * {
             margin: 0 20px;
           }
         }
@@ -37,7 +37,7 @@ main {
           display: flex;
           justify-content: center;
           align-items: center;
-          background-color: #55BA59;
+          background-color: #55ba59;
           border-left: 1px solid #000;
           i {
             margin-left: 5px;
@@ -47,25 +47,22 @@ main {
       p {
         color: gray;
       }
-
     }
     .detail-center-right {
       width: 35%;
-      span,img {
+      span,
+      img {
         float: right;
       }
     }
-
   }
   .detail-down {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     .container-detail-down {
       @include container-center(55%);
       .container-detail-talent {
-
       }
       .container-detail-specs {
-
       }
     }
   }
