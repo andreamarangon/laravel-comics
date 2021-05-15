@@ -527,7 +527,7 @@ main .shop .container-shop .card-shop img {
 
 main .detail-up {
   height: 70px;
-  background-color: #0282f9;
+  background-color: #0282F9;
 }
 main .detail-up .container-detail-up {
   width: 55%;
@@ -545,13 +545,15 @@ main .detail-center .detail-center-left {
   width: 65%;
 }
 main .detail-center .detail-center-left h1 {
-  font-size: 32px;
+  font-size: 38px;
+  color: #003F5E;
 }
 main .detail-center .detail-center-left .container-green {
   color: #fff;
   display: flex;
   width: 100%;
   height: 45px;
+  border-bottom: 1px solid #357739;
 }
 main .detail-center .detail-center-left .container-green .container-green-left {
   width: 70%;
@@ -569,13 +571,16 @@ main .detail-center .detail-center-left .container-green .container-green-right 
   justify-content: center;
   align-items: center;
   background-color: #55ba59;
-  border-left: 1px solid #000;
+  border-left: 1px solid #357739;
 }
 main .detail-center .detail-center-left .container-green .container-green-right i {
   margin-left: 5px;
 }
 main .detail-center .detail-center-left p {
-  color: gray;
+  color: #555555;
+  font-size: 17px;
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
 }
 main .detail-center .detail-center-right {
   width: 35%;
@@ -586,11 +591,49 @@ main .detail-center .detail-center-right img {
 }
 main .detail-down {
   background-color: #f6f6f6;
+  color: #003F5E;
 }
 main .detail-down .container-detail-down {
   width: 55%;
   margin: 0 auto;
+  display: flex;
 }
+main .detail-down .container-detail-down .container-detail-talent {
+  width: 50%;
+}
+main .detail-down .container-detail-down .container-detail-talent > * {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+main .detail-down .container-detail-down .container-detail-talent h5 {
+  float: left;
+}
+main .detail-down .container-detail-down .container-detail-talent .container-talent-info {
+  padding-left: 160px;
+  font-size: 14px;
+}
+main .detail-down .container-detail-down .container-detail-talent .container-talent-info span {
+  color: #00a9d9;
+}
+main .detail-down .container-detail-down .container-detail-specs {
+  width: 50%;
+}
+main .detail-down .container-detail-down .container-detail-specs > * {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+main .detail-down .container-detail-down .container-detail-specs h5 {
+  float: left;
+}
+main .detail-down .container-detail-down .container-detail-specs p {
+  padding-left: 160px;
+  color: #3f3f3f;
+  font-size: 14px;
+}
+main .detail-down .container-detail-down .container-detail-specs .series p {
+  color: #00a9d9;
+}
+
 footer {
   color: #fff;
 }

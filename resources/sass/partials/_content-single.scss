@@ -1,7 +1,7 @@
 main {
   .detail-up {
     height: 70px;
-    background-color: #0282f9;
+    background-color: $secondary;
     .container-detail-up {
       @include container-center(55%);
       img {
@@ -15,13 +15,16 @@ main {
     .detail-center-left {
       width: 65%;
       h1 {
-        font-size: 32px;
+        font-size: 38px;
+        color: $tertiary;
       }
       .container-green {
         color: #fff;
         display: flex;
         width: 100%;
         height: 45px;
+        border-bottom: 1px solid #357739;
+
         .container-green-left {
           width: 70%;
           display: flex;
@@ -38,14 +41,17 @@ main {
           justify-content: center;
           align-items: center;
           background-color: #55ba59;
-          border-left: 1px solid #000;
+          border-left: 1px solid #357739;
           i {
             margin-left: 5px;
           }
         }
       }
       p {
-        color: gray;
+        color: #555555;
+        font-size: 17px;
+        line-height: 23px;
+        font-family: $font-secondary;
       }
     }
     .detail-center-right {
@@ -58,11 +64,47 @@ main {
   }
   .detail-down {
     background-color: #f6f6f6;
+    color: $tertiary;
     .container-detail-down {
       @include container-center(55%);
+      display: flex;
       .container-detail-talent {
+        & > * {
+          padding: 10px 0;
+          border-bottom: 1px solid lightgrey;
+        }
+        width: 50%;
+        h5 {
+          float: left;
+        }
+        .container-talent-info {
+          padding-left: 160px;
+          font-size: 14px;
+          span {
+          color: #00a9d9;
+          };
+        }
       }
       .container-detail-specs {
+        & > * {
+          padding: 10px 0;
+          border-bottom: 1px solid lightgrey;
+        }
+        width: 50%;
+        h5 {
+          float: left;
+        }
+        p {
+          padding-left: 160px;
+          color: #3f3f3f;
+          font-size: 14px;
+
+        }
+        .series {
+          p {
+          color: #00a9d9;
+          }
+        }
       }
     }
   }

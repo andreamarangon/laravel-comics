@@ -6,7 +6,7 @@ main {
       position: absolute;
       top: -28px;
       left: 17%;
-      background-color: #0282F9;
+      background-color: $secondary;
       padding: 6px 28px;
       text-transform: uppercase;
       width: fit-content;
@@ -26,7 +26,7 @@ main {
           text-decoration: none;
           color: #fff;
           h5 {
-            font-family: 'Open Sans', sans-serif;
+            font-family: $font-secondary;
           }
         }
         .container-img {
@@ -42,7 +42,7 @@ main {
     }
     .my-btn-main {
       cursor: pointer;
-      background-color: #0282F9;
+      background-color: $secondary;
       padding: 6px 50px;
       text-transform: uppercase;
       width: fit-content;
@@ -54,7 +54,7 @@ main {
   }
   .shop {
     height: 120px;
-    background-color: #0282F9;
+    background-color: $secondary;
     color: #fff;
     .container-shop {
       @include container-center(65%);
