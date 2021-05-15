@@ -24,7 +24,7 @@
   </div>
 </section>
 <section class="detail-down">
-  <div class="container-detail-down">
+  <div class="container-detail-down pt-2 pb-14">
     <div class="container-detail-talent">
       <h2>Talent</h2>
       <div class="art-by">
@@ -66,6 +66,26 @@
       </div>
     </div>
   </div>
-
 </section>
+<section class="shop">
+  <div class="container-shop">
+    <div class="card-shop">
+      <img src="/img/buy-comics-digital-comics.png" alt="">
+      <span class="text-uppercase">digital comics</span>
+    </div>
+    <div class="card-shop">
+      <img src="/img/buy-comics-merchandise.png" alt="">
+      <span class="text-uppercase">dc merchandise</span>
+    </div>
+    <div class="card-shop">
+      <img src="/img/buy-comics-subscriptions.png" alt="">
+      <span class="text-uppercase">subscription</span>
+    </div>
+    <div class="card-shop">
+      <img src="/img/buy-comics-shop-locator.png" alt="">
+      <span class="text-uppercase">comic shop locator</span>
+    </div>
+  </div>
+</section>
+
 @endsection

@@ -535,6 +535,7 @@ main .detail-up .container-detail-up {
 }
 main .detail-up .container-detail-up img {
   margin-top: -240px;
+  border: 1px solid #fff;
 }
 main .detail-center {
   display: flex;
@@ -578,7 +579,7 @@ main .detail-center .detail-center-left .container-green .container-green-right 
 }
 main .detail-center .detail-center-left p {
   color: #555555;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 23px;
   font-family: "Open Sans", sans-serif;
 }
@@ -591,6 +592,7 @@ main .detail-center .detail-center-right img {
 }
 main .detail-down {
   background-color: #f6f6f6;
+  border-top: 1px solid lightgrey;
   color: #003F5E;
 }
 main .detail-down .container-detail-down {
@@ -616,6 +618,7 @@ main .detail-down .container-detail-down .container-detail-talent .container-tal
   color: #00a9d9;
 }
 main .detail-down .container-detail-down .container-detail-specs {
+  padding-left: 50px;
   width: 50%;
 }
 main .detail-down .container-detail-down .container-detail-specs > * {
